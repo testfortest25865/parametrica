@@ -1,0 +1,1866 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    overflow-x: hidden;
+}
+
+/* new */
+
+.new .container {
+    height: 100vh;
+}
+
+.psevdo {
+    overflow: hidden;
+}
+
+.new .container a {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+.new .container a:hover {
+    color: #00FFEA;
+}
+
+.new h1 {
+    text-align: center;
+}
+
+/* new end*/
+
+
+
+
+/* главная */
+
+header {
+    position: relative;
+    height: 534px;
+    background: url(img/header__bg.jpg)no-repeat center /cover;
+}
+
+.header h2 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header .top {
+    margin-top: 108px;
+}
+
+.header .bottom {
+    margin-top: 21px;
+}
+
+.top_site {
+    max-width: 160px;
+    width: 100%;
+    padding: 3px;
+    background: #0FBBAD;
+    margin-right: 10px;
+    padding-bottom: 1px;
+}
+
+.top_site a,
+.bottom_site a {
+    display: block;
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bottom_site {
+    max-width: 160px;
+    width: 100%;
+    padding: 5px;
+    background: #DD7903;
+    padding-bottom: 4px;
+}
+
+.bottom_site img {
+    margin-right: 10px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+
+
+
+.container_nav {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background: rgba(91, 91, 91, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container_nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.container_nav ul li {
+    padding: 0 25px;
+}
+
+.container_nav ul li a {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container_nav ul li a:hover {
+    color: #00C2DD;
+}
+
+.container_header {
+    height: 500px;
+}
+
+.header_text {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header_text img {
+    max-width: 368px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: -30px;
+}
+
+/* 2 столбец */
+
+.two_section {
+    background: #333645;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+.pochta {
+    text-align: center;
+    margin-left: -30px;
+}
+
+.container_razdel .ul {
+    position: relative;
+}
+
+.container_razdel .ul:after {
+    content: url('img/bottom_logo.png');
+    position: absolute;
+    left: 20%;
+}
+
+
+
+.container_opit .pochta a {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container_opit .pochta a:hover {
+    color: #11F4E1;
+}
+
+.grafik {
+    margin-left: -30px;
+}
+
+.container_opit .grafik h3 {
+
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* услуги */
+
+.uslugi {
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.kartochki {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_uslugi h3 {
+    font-family: 'Cambria';
+    margin-bottom: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-top: 35px;
+}
+
+.karta {
+    position: relative;
+    margin-bottom: 50px;
+    max-width: 359px;
+    width: 100%;
+    transition: 1s;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.karta img {
+    width: 100%;
+}
+
+.knopka {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    outline: none;
+    border: none;
+
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.8s;
+}
+
+.karta .knopka:hover {
+    background: rgba(0, 0, 0, 0.6);
+    color: #00C2DD;
+}
+
+
+/* выпадающее меню */
+
+#Navigation {
+    position: absolute;
+    top: 83px;
+}
+
+.Navigation {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.Navigation li {
+    height: auto;
+    width: 272px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: 12px "Bonveno", "Century Gothic";
+    padding: 0;
+    margin: 0;
+    background: #333645;
+    border-radius: 3px;
+}
+
+.uznat a {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Cambria';
+    padding: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    background: #4B4E5C;
+    text-decoration: none;
+}
+
+.uznat a:hover {
+    background: #4B4E5C;
+}
+
+.Navigation a {
+    padding: 1px 40px;
+    text-decoration: none;
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+}
+
+.Navigation li ul {
+    display: none;
+    height: auto;
+    padding: 0;
+}
+
+.Navigation li:hover ul {
+    display: block;
+}
+
+.navbar li ul li {
+    background-color: #000;
+}
+
+.Navigation li:hover,
+a:hover {
+    color: #00FFEA;
+}
+
+
+
+
+
+
+/* всплывающее окно */
+
+.modal-dialog {
+    max-width: 1140px;
+    width: 100%;
+    height: 621px;
+}
+
+.modal-content {
+    background-image: url(img/zvezdi.jpg);
+    padding: 42px 20px 121px;
+}
+
+.kolonki {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartinka img {
+    max-width: 468px;
+    width: 100%;
+}
+
+.modal-body h4 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.text p {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-close {
+    position: absolute;
+    right: 0;
+    background: url(img/xxx.png)no-repeat center /cover;
+    color: #fff;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+
+.btn-close:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* раздел */
+
+.container_razdel h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 23px;
+    margin-bottom: 15px;
+}
+
+.container_razdel ul li {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    list-style: disc;
+    margin-top: 3px;
+}
+
+.company_about .text1 {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.seriy {
+    background: #333645;
+}
+
+.container_razdel ul {
+    padding-left: 50px;
+}
+
+/* .psevdo:before {
+    content: url('img/Vectort.png');
+    display: block;
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-bottom: -8px;
+}
+
+.psevdo:after {
+    content: url('img/Vectorb.png');
+    display: block;
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-top: -1px;
+} */
+
+ul {
+    margin-bottom: 0px;
+}
+
+.contaier_form {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.container_opit {
+    margin-right: -1px;
+}
+
+.psevdo__waves--top {
+    margin-bottom: -1px;
+}
+
+.psevdo__waves--bottom {
+    margin-top: -1px;
+}
+
+/* преимущества */
+
+.preimush {
+    position: relative;
+    margin-top: 37px;
+}
+
+.contaiener_preimush h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 46px;
+}
+
+.preimush_card {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    max-width: 465px;
+    width: 100%;
+}
+
+.preimush_card5 {
+    max-width: 841px;
+    width: 100%;
+}
+
+.preimush_card img {
+    height: 98px;
+    margin-right: 25px;
+}
+
+.preimush_card p {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000;
+}
+
+.preimush_card p span {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000;
+    margin-right: 5px;
+}
+
+/* о компании */
+
+.text12 img {
+    margin-right: 50px;
+}
+
+.text12 {
+    margin-bottom: 45px;
+}
+
+.text12 h2 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text1 h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.text1 span {
+    text-transform: uppercase;
+}
+
+/* завершенныеп проекты */
+
+.proekti {
+    background: #333645;
+}
+
+.container_zavershit h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 52px;
+    padding-top: 56px;
+}
+
+.zavershit_card {
+    margin-bottom: 20px;
+}
+
+.zavershit_card h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    transform: rotate(0.18deg);
+    max-width: 282px;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+/* отзывы */
+
+.otzivi {
+    margin-bottom: 35px;
+}
+
+.carousel-inner {
+    position: relative;
+    height: 550px;
+}
+
+.carousel-item {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-width: 889px;
+    width: 100%;
+    padding: 58px 97px 49px 85px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: auto;
+    width: 71px;
+    height: 71px;
+    bottom: 0;
+    background: #11F4E1;
+    padding: 18px;
+    border-radius: 50%;
+}
+
+.carousel-control-next span {
+    color: #fff;
+}
+
+.carousel-control-prev {
+    left: 40%;
+}
+
+.carousel-control-next {
+    right: 40%;
+}
+
+.text_otz img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.text_otz h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.text_otz p {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.otzivi_glav {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 66px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 68px;
+    margin-bottom: 46px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+}
+
+.slide img {
+    width: 100%;
+    padding: 5px;
+}
+
+.slide1 img {
+    width: 100%;
+    padding: 5px;
+    height: 100%;
+}
+
+.container_zavershit {
+    padding-bottom: 107px;
+}
+
+/* .slider1 .slide1 img{
+    position: relative;
+    z-index: 4;
+}
+
+.podro a {
+    position: absolute;
+    display: block;
+    bottom: -28px;
+    z-index: 5;
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 6px 16px;
+    background: #4B4E5C;
+    text-decoration: none;
+} */
+
+.slider .slick-prev:before,
+.slider .slick-next:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .80;
+    color: black;
+}
+
+.slider .slick-prev:before {
+    content: url('img/sliderl.png');
+}
+
+.slider .slick-prev {
+    left: -50px;
+}
+
+.slider .slick-next:before {
+    content: url('img/sliderr.png');
+}
+
+.slider .slick-next {
+    right: -50px;
+}
+
+.slider1 .slick-prev:before,
+.slider1 .slick-next:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .80;
+    color: black;
+}
+
+.slider1 .slick-prev:before {
+    content: url('img/whitel.png');
+}
+
+.slider1 .slick-prev {
+    left: -50px;
+}
+
+.slider1 .slick-next:before {
+    content: url('img/whiter.png');
+}
+
+.slider1 .slick-next {
+    right: -50px;
+}
+
+a:hover {
+    background: none;
+}
+
+/* многолетний опыт */
+
+.mnogo h3 {
+    display: block;
+    max-width: 1040px;
+    width: 100%;
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    margin-top: 68px;
+    margin-bottom: 68px;
+    max-width: 474px;
+    width: 100%;
+}
+
+
+.container_zakaz ul,
+.container_razdel ul {
+    margin-left: 100px;
+}
+
+/* форма */
+
+.forma_sec {
+    padding-top: 51px;
+    padding-bottom: 72px;
+    background: #4B4E5C;
+}
+
+.forma_sec h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
+
+.forma_sec input::-webkit-input-placeholder {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #070000;
+}
+
+.forma_sec textarea::-webkit-input-placeholder {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #070000;
+}
+
+.forma_sec .left textarea {
+    background: #FFFFFF;
+    border: 2px solid #818181;
+    box-sizing: border-box;
+    padding: 8px 11px;
+}
+
+.forma_sec .center input {
+    max-width: 301px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 2px solid #8E8E8E;
+    box-sizing: border-box;
+    padding: 8px 159px 29px 13px;
+}
+
+.forma_sec .center .top {
+    margin-bottom: 27px;
+}
+
+.forma_sec .right .top {
+    max-width: 301px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 2px solid #8E8E8E;
+    box-sizing: border-box;
+    padding: 8px 159px 29px 13px;
+    margin-bottom: 23px;
+}
+
+.forma_sec .right button {
+    background: #11F4E1;
+    border: 2px solid #8E8E8E;
+    box-sizing: border-box;
+    padding: 12px 52px 21px;
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #070000;
+}
+
+
+/* footer */
+
+.container_footer {
+    padding: 34px 0 20px;
+}
+
+.container_niz {
+    padding-bottom: 20px;
+}
+
+.container_niz a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.container_niz a:hover {
+    color: #00FFEA;
+}
+
+.footer {
+    background: #2A2B30;
+}
+
+.contaier_form .left {
+    flex-direction: column;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.left a {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.left a:hover {
+    color: #00FFEA;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.center a {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+
+.center a:hover {
+    color: #00FFEA;
+}
+
+.right a {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.right a:hover {
+    color: #00FFEA;
+}
+
+.right h4 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 21px;
+    max-width: 380px;
+}
+
+.footer {
+    position: relative;
+}
+
+.top img {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+body {
+    position: relative;
+}
+
+/* бургер меню */
+
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked+.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    left: 0 !important;
+}
+
+.menu__btn {
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.795);
+    transition-duration: .25s;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.795);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+}
+
+/* схема воздействия */
+
+.card_sxem {
+    position: relative;
+    max-width: 193px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.vector {
+    display: block;
+    max-width: 34px;
+    width: 100%;
+    position: absolute;
+    right: -25px;
+    top: 62px;
+}
+
+.card_sxem:not(:last-child) {
+    margin-right: 20px;
+}
+
+.smex {
+    display: block;
+    max-width: 170px;
+    width: 100%;
+}
+
+.card_sxem h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    transform: rotate(0.18deg);
+    margin-top: 25px;
+}
+
+.container_sxem h2 {
+    margin-bottom: 21px;
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* заказчикам */
+
+.container_zakaz h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.container_zakaz ul li h4 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+/* footer */
+
+.right_r {
+    margin-right: 50px;
+    margin-top: -30px;
+}
+
+.footer {
+    padding: 0px;
+}
+
+.footer .right {
+    background: #333645;
+    padding: 66px 0 25px 133px;
+}
+
+.footer .right img {
+    margin-right: 10px;
+}
+
+.tel2 {
+    margin-left: 4px;
+}
+
+.tel1 a,
+.tel2 a,
+.email a {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.email img {
+    margin-top: 6px;
+}
+
+.adress h3,
+.grafik h3 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.grafik h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.left_r h4 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 7px;
+}
+
+.left_r h5 {
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.right_r ul li a {
+    display: block;
+    font-family: 'Cambria';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 7px 0;
+}
+
+.right {
+    position: relative;
+}
+
+.forma_sec .right {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.languages_footer {
+    position: absolute;
+    top: 14px;
+    right: 25px;
+}
+
+@media (max-width: 1200px) {
+    .container_nav ul li a {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .forma .bgbg {
+        left: -100px;
+    }
+
+    .kartochki {
+        justify-content: space-around;
+    }
+
+    .preimush_card {
+        max-width: 700px;
+        margin-right: 0;
+    }
+
+    .zavershit_card img {
+        width: 100%;
+    }
+
+    .zavershit_card {
+        margin-right: 20px;
+    }
+
+    .zavershit_cards {
+        justify-content: space-around;
+    }
+
+    .container_forma .img img,
+    .bgbg {
+        display: none;
+    }
+
+    .forma_zayavka {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .left a {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .center a {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .right a {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .right h4 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .container_nav {
+        flex-direction: row-reverse;
+    }
+
+    .container_opit h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .container_razdel h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .container_razdel ul li {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .text_otz h3 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .text_otz p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .carousel-item {
+        padding: 38px 77px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .forma {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .other_sites {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .container_opit h2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .header_text h1 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .header_text h1 span {
+        font-size: 26px;
+        line-height: 22px;
+    }
+
+    .container_razdel h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .container_razdel ul li {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .container_opit {
+        margin-left: 5vw;
+    }
+
+    .grafik {
+        margin-top: 9px;
+    }
+
+    textarea {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .forma_sec .left textarea {
+        padding-right: 0px;
+    }
+
+    .forma_sec h3 {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .forma_sec form {
+        display: block !important;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .header h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+
+
+    .par_logo {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .psevdo {
+        overflow: hidden;
+    }
+
+    .header_text img {
+        margin-bottom: 0px;
+    }
+
+    /* .logo {
+        width: 180px;
+        top: 190px;
+        margin-left: -90px;
+    } */
+
+
+    .kartinka {
+        margin-bottom: 50px;
+    }
+
+    .container_razdel h2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .container_zavershit h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .carousel-item {
+        padding: 28px 66px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .carousel-inner {
+        height: 700px;
+    }
+
+    .content .img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .center a {
+        text-align: center;
+    }
+
+    .right a {
+        text-align: center;
+    }
+
+
+
+    .contaiener_preimush h3 {
+        font-size: 26px;
+        line-height: 20px;
+    }
+
+    .preimush_card p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .otzivi_glav {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .location h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .left_ten,
+    .right_ten {
+        display: none;
+    }
+
+    .zavershit_card {
+        margin: 10px 0;
+    }
+
+    .forma_zayavka {
+        padding: 20px;
+    }
+
+    .carousel-item {
+        padding: 20px;
+    }
+
+    .preimush_card {
+        flex-direction: column;
+    }
+
+    .preimush_card img {
+        max-width: 97px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .karta {
+        max-width: 260px;
+        width: 100%;
+    }
+
+    .razdel {
+        margin-top: 0;
+    }
+
+    .zavershit {
+        margin-top: 50px;
+    }
+
+    .zavershit:after {
+        margin-top: 20px;
+    }
+
+    .otzivi_glav {
+        padding-top: 0;
+    }
+
+    .zavershit {
+        margin-bottom: 30px;
+    }
+
+    .forma:after {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .forma {
+        margin-bottom: 0;
+    }
+
+    .modal-content {
+        padding: 0;
+    }
+
+    .modal-body {
+        padding: 0;
+    }
+
+    .modal-body h4 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+
+    .kolonki {
+        justify-content: center;
+    }
+
+    .text p {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 270px;
+    }
+
+    .container_nav {
+        padding-top: 0;
+    }
+
+    .container_header {
+        height: 400px;
+    }
+
+    .container_opit h2 {
+        font-size: 17px;
+        line-height: 18px;
+    }
+
+    .container_uslugi h3 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .container_razdel ul li {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    header {
+        height: 500px;
+    }
+
+    .zavershit_card h3 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 0;
+    }
+
+    .container_niz {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_niz a {
+        margin: 0;
+    }
+
+    .vector {
+        display: none;
+    }
+
+    .card_sxem:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .container_sxem h2 {
+        font-size: 24px;
+        line-height: 16px;
+    }
+
+    .smex {
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .right,
+    .center {
+        margin-top: 21px;
+    }
+
+}
+
+@media (max-width: 530px) {
+
+    .right_r {
+        margin-top: 0px;
+        margin-right: 20px;
+    }
+
+    .two_section {
+        padding: 15px 0px 40px;
+    }
+
+    .container_zakaz ul,
+    .container_razdel ul {
+        margin-left: 15px;
+    }
+
+    /* .logo {
+        width: 35%;
+        margin-left: -70px;
+    } */
+
+    .Navigation a {
+        display: block;
+    }
+
+    .Navigation li {
+        width: 100vw;
+    }
+
+    .adress h3,
+    .grafik h3 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .tel2 {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .logo_l {
+        display: none;
+    }
+
+    .pochta:after {
+        content: '';
+        display: block;
+        max-width: 200px;
+        width: 100%;
+        height: 2px;
+        background: rgba(255, 255, 255, 0.699);
+        margin-top: 7px;
+    }
+
+    #Navigation {
+        top: 420px;
+    }
+
+    .psevdo:after {
+        margin-top: -2px;
+    }
+
+    .header .top {
+        margin-top: 30px;
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .header h2 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .container_opit {
+        flex-direction: column;
+    }
+
+    .mnogo h3 {
+        font-size: 24px;
+        line-height: 22px;
+    }
+
+    ul {
+        padding-left: 7px;
+    }
+
+    .container_razdel ul {
+        padding: 2rem;
+    }
+
+    .podrazdel {
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .footer .right {
+        padding-left: 10px;
+    }
+
+    .languages_footer {
+        right: 5px;
+    }
+
+    .container_uslugi h3 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 530px) {
+    #Navigation {
+        top: 450px;
+    }
+}
