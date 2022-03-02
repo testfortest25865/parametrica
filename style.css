@@ -517,11 +517,6 @@ ul {
     margin-bottom: 0px;
 }
 
-.contaier_form {
-    max-width: 975px;
-    width: 100%;
-}
-
 .container_opit {
     margin-right: -1px;
 }
@@ -888,7 +883,7 @@ a:hover {
     line-height: 28px;
     color: #FFFFFF;
     margin-bottom: 14px;
-    margin-left: 5px;
+    margin-left: 13%;
 }
 
 .forma_sec input::-webkit-input-placeholder {
