@@ -187,7 +187,7 @@ header {
 
 .pochta {
     text-align: center;
-    margin-left: -30px;
+    margin-left: -95px;
 }
 
 .container_razdel .ul {
@@ -518,7 +518,7 @@ ul {
 }
 
 .contaier_form {
-    max-width: 1000px;
+    max-width: 975px;
     width: 100%;
 }
 
@@ -888,7 +888,7 @@ a:hover {
     line-height: 28px;
     color: #FFFFFF;
     margin-bottom: 14px;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .forma_sec input::-webkit-input-placeholder {
@@ -985,8 +985,6 @@ a:hover {
 
 .contaier_form .left {
     flex-direction: column;
-    margin-right: 5px;
-    margin-left: 5px;
 }
 
 .left a {
@@ -1007,8 +1005,8 @@ a:hover {
 .center {
     display: flex;
     flex-direction: column;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .center a {
@@ -1315,11 +1313,6 @@ body {
 
 .right {
     position: relative;
-}
-
-.forma_sec .right {
-    margin-right: 5px;
-    margin-left: 5px;
 }
 
 .languages_footer {
@@ -1748,9 +1741,18 @@ body {
         margin-top: 21px;
     }
 
+    .center{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
 }
 
 @media (max-width: 530px) {
+
+    .pochta {
+        margin-left: -30px;
+    }
 
     .right_r {
         margin-top: 0px;
